@@ -1,16 +1,18 @@
 // To find a first pair whose sum is zero using indexing.
+
 function arr(inputArr) {
+  let start = 0;
   let end = inputArr.length - 1;
-  for (let i = 0; i < inputArr.length; i++) {
-    // console.log("LN05", i);
-    if (inputArr[i] + end == 0) {
-      return `${inputArr[i]}, ${inputArr[end]}`;
-    } else {
-      end--;
+  for (let i = start + 1; i < inputArr.length; i++) {
+    if (inputArr[start] + inputArr[i] == 0) {
+      return `First pair is : ${inputArr[i]}, ${inputArr[start]}`;
+    }
+    if (inputArr[i] == inputArr[end]) {
+      start++;
+      i = start + 1;
     }
   }
-  return;
 }
-console.log("LN14", arr([-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]));
-console.log("LN15", arr([-5, -4, -3, -2, -1, 0, 1, 2, 3, 4]));
-console.log("LN16", arr([-3, -2, -1, 0, 1, 2, 3, 4]));
+// arr([-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]);
+// console.log(arr([-5, -4, -3, -2, -1, 0, 1, 2, 3, 4]));
+console.log(arr([-3, -2, -1, 0, 1, 4]));

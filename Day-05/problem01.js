@@ -1,5 +1,5 @@
 // To find a first pair from a number array whose sum is zero.
-// uding 2 loop operation.
+// using 2 loop operation.
 
 function arr(inputArr) {
   for (let i of inputArr) {
