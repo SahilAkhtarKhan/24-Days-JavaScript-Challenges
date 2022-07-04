@@ -29,3 +29,37 @@
 ###### -To check the string or number is palindrome or not( ex: 121,madam,anna) using reverse method.
 
 ###### -Find the maximum character in a array and how many times it appears.
+
+###### -To find longest word from a string using (for of Loop) means iterate by an elements not by indexing.
+
+# **Day 5**
+
+###### -To find a first pair from a number array whose sum is zero using 2 loop operation.
+
+###### -To find a first pair whose sum is zero using indexing. To find a first pair whose sum is zero using indexing.
+
+###### -To find the largest pair of the 2 elements using indexing with unsorted elements
+
+# **Day 6**
+
+###### -To find the largest pair of the 2 elements using indexing with sorted elements
+
+###### -To find the index of an element from an array
+
+###### -Fibonacci Series (0,1,1,2,3,5,8,13....)
+
+# **Day 7**
+
+###### -Fibonacci Series (0,1,1,2,3,5,8,13....) where keeping in array
+
+###### -Finding a missing elements in an array and then add with existing elements. (-1 means if elements not found then it will return always -1 as per rule)
+
+###### -Find the missing number from an array
+
+# **Day 8**
+
+###### -Sorting of a string/characters
+
+###### -Sorting of a number array with or without inbuilt methods
+
+###### -To check if given number is prime or not
