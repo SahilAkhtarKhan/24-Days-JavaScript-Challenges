@@ -63,3 +63,5 @@
 ###### -Sorting of a number array with or without inbuilt methods
 
 ###### -To check if given number is prime or not
+
+###### -To print all the numbers from 2 to 100
