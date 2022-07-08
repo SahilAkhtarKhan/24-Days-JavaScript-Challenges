@@ -65,3 +65,8 @@
 ###### -To check if given number is prime or not
 
 ###### -To print all the numbers from 2 to 100
+
+# **Day 9**
+
+###### -To find unique is from 2 arrays and keep into one array.
+###### - Find first duplicate element from an array.
