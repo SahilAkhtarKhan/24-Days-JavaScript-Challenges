@@ -69,4 +69,4 @@
 # **Day 9**
 
 ###### -To find unique is from 2 arrays and keep into one array.
-###### - Find first duplicate element from an array.
+###### -Find first duplicate element from an array.
